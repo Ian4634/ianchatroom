@@ -1,0 +1,11 @@
+<h1>Home</h1>
+
+<form method="POST" action = 'create/'>
+    {% csrf_token %}
+    <label>username</label>
+    <input type = 'text' name = 'username'>
+    <label>room name</label>
+    <input type = 'text' name = 'room'>
+    <input type = 'submit' name = 'submit'>
+</form>
+
