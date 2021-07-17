@@ -1,1 +1,1 @@
-web: gunicorn new_chatroom.wsgi --log-file -
+web: gunicorn new_chatroom.wsgi:application --log-file -
